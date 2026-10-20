@@ -3,7 +3,8 @@ name: Documentation
 about: Suggest updates or additions to documentation
 title: "[Docs]: "
 labels: documentation
-assignees: ''
+assignees: 'rianaventura'
+type: Documentation
 ---
 
 ### Documentation Update

@@ -3,7 +3,8 @@ name: General Report
 about: Provide general feedback or inquiries
 title: "[General]: "
 labels: general
-assignees: ''
+assignees: 'rianaventura'
+type: 
 ---
 
 ### Feedback or Inquiry

@@ -11,8 +11,6 @@ body:
       value: |
         Thanks for taking the time to provide feedback on our documentation! 
   - type: textarea
-    id: describe-update
-  - type: textarea
     id: suggested-changes
     attributes:
       label:  Suggested Changes

@@ -55,6 +55,6 @@ body:
       label: Additional context
       description: Add any other context about the problem here.
       placeholder: Tell us what you see!
-      value: "Additional Info!"
+      value: "Please provide any additional information that may help us understand the issue."
     validations:
       required: false

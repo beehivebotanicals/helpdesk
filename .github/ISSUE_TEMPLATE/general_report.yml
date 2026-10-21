@@ -1,0 +1,30 @@
+name: 💬 General Report
+description: Provide general feedback or inquiries
+title: "[General]: "
+labels: ["general", "triage"]
+assignees:
+  - rianaventura
+type: general
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this general feedback form!
+  - type: textarea
+    id: describe-feedback
+    attributes:
+      label: Describe the feedback or inquiry
+      description: Please provide a clear and concise description of the feedback.
+      placeholder: Tell us what you think!
+      value: "Feedback is always welcome!"
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+      placeholder: Tell us what you see!
+      value: "Please provide any additional information that may help us understand the issue."
+    validations:
+      required: false

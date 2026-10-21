@@ -1,4 +1,4 @@
-Welcome to the Beehive Transition Tracker
+Welcome to the Beehive Issues Tracker
 =============================================
 
 About

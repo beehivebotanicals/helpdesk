@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Pages Landing</title>
+  <title>Beehive Botanicals</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
     header { background: #007bff; color: white; padding: 20px; }
@@ -14,12 +14,11 @@
 </head>
 <body>
   <header>
-    <h1>My Landing Page</h1>
+    <h1>Landing Page</h1>
   </header>
   <div class="hero">
-    <h2>Welcome to my GitHub Pages site</h2>
+    <h2>Welcome to the Beehive Botanicals HelpDesk</h2>
     <p>This is a simple HTML/CSS landing page.</p>
-    <a href="https://github.com/yourusername/yourrepo" class="btn">View on GitHub</a>
   </div>
   <footer>
     <p>&copy; 2026 Riana Ventura</p>

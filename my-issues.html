@@ -1,0 +1,19 @@
+<script>
+async function loadIssues() {
+  const token = localStorage.getItem("gh_token");
+  const user = await fetch("https://api.github.com/user", {
+    headers: { Authorization: `token ${token}` }
+  }).then(r => r.json());
+
+  const issues = await fetch("https://api.github.com/repos/OWNER/REPO/issues", {
+    headers: { Authorization: `token ${token}` }
+  }).then(r => r.json());
+
+  const mine = issues.filter(i => i.user.login === user.login);
+
+  document.getElementById("issues").innerHTML =
+    mine.map(i => `<li><a href="${i.html_url}">${i.title}</a></li>`).join("");
+}
+loadIssues();
+</script>
+<ul id="issues"></ul>

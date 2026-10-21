@@ -26,6 +26,19 @@
       padding: 20px;
       max-width: 800px;
     }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
     h1 { margin-top: 0; }
     p { line-height: 1.6; }
   </style>
@@ -40,6 +53,12 @@
     <h1>Welcome to the HelpDesk</h1>
     <p>This is a simple landing page hosted on GitHub Pages with an image in the header.</p>
     <p>You can customize the text, links, and styles to match your needs.</p>
+    <a href="https://github.com/rianaventura/beehive/issues/new/choose" class="btn">
+      New Ticket
+    </a>
+    <a href="https://github.com/rianaventura/beehive/issues?q=is%3Aissue+state%3Aopen+author%3A%40me" class="btn">
+      My Tickets
+    </a>
   </div>
 </body>
 </html>

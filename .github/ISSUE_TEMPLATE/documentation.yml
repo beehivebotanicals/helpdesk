@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to provide feedback on our documentation! 
+        Provide short description of the document update being requested
   - type: textarea
     id: suggested-changes
     attributes:

@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to provide a feature request! Please fill out the template below to help us understand your request.
+        Provide short description of feature request
   - type: textarea
     id: describe-feature
     attributes:

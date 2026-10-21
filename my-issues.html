@@ -5,7 +5,7 @@ async function loadIssues() {
     headers: { Authorization: `token ${token}` }
   }).then(r => r.json());
 
-  const issues = await fetch("https://api.github.com/repos/OWNER/REPO/issues", {
+  const issues = await fetch("https://api.github.com/repos/rianaventura/beehive/issues", {
     headers: { Authorization: `token ${token}` }
   }).then(r => r.json());
 

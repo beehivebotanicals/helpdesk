@@ -8,6 +8,11 @@ body:
     attributes:
       value: |
         Provide short description of the document update being requested
+  # Divider line
+  - type: divider
+    style:
+      height: 2px
+      background-color: lime
   - type: textarea
     id: suggested-changes
     attributes:

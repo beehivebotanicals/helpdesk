@@ -7,12 +7,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Provide short description of the document update being requested
-  # Divider line
-  - type: divider
-    style:
-      height: 2px
-      background-color: lime
+        *Provide short description of the document update being requested*
+  - type: markdown
+    attributes:
+      value: "---"  # This renders as a horizontal divider line
   - type: textarea
     id: suggested-changes
     attributes:

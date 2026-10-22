@@ -7,22 +7,26 @@ body:
   - type: markdown
     attributes:
       value: |
-        Provide short description of the general report or comment
+        *Provide short description of the general report or comment*
+  - type: markdown
+    attributes:
+      value: "---"  # This renders as a horizontal divider line
   - type: textarea
     id: describe-feedback
     attributes:
       label: Describe the feedback or inquiry
-      description: Please provide a clear and concise description of the feedback.
-      placeholder: Tell us what you think!
-      value: "Feedback is always welcome!"
+      description: Please be clear and concise
+      placeholder: Tell us what you think...
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"  # This renders as a horizontal divider line
   - type: textarea
     id: additional-info
     attributes:
       label: Additional context
-      description: Add any other context about the problem here.
-      placeholder: Tell us what you see!
-      value: "Please provide any additional information that may help us understand the issue."
+      description: Please provide any additional information that may help us understand the issue.
+      placeholder: Why is it important? Is this urgent?
     validations:
       required: false

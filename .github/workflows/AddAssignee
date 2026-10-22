@@ -1,4 +1,4 @@
-name: Auto-assign new issues
+name: Beehive- Auto-assign new issues
 on:
   issues:
     types: [opened]

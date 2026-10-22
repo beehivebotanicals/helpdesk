@@ -1,5 +1,4 @@
 name: Issue assignment  
-#this is from Pozil/auto-assign action
 
 on:
     issues:

@@ -67,7 +67,7 @@ body:
     id: additional-info
     attributes:
       label: Additional context
-      description: Add any other context about the problem here.
-      placeholder: "Please provide any additional information that may help us understand the issue."
+      description: Please provide any additional information that may help us understand the issue.
+      placeholder: Why is it important? Is this urgent?
     validations:
       required: false

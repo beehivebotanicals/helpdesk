@@ -11,5 +11,5 @@ jobs:
         uses: pozil/auto-assign-issue@v4
         with:
           assignees: 'rianaventura'  # the person to assign to
-          allowSelfAssign: false            # prevent self-assignment
+          allowSelfAssign: true            # prevent self-assignment
           abortIfPreviousAssignees: true    # skip if already assigned

@@ -3,6 +3,7 @@ description: Suggest an idea for this project
 title: "[Feature]: "
 labels: ["enhancement", "triage"]
 type: Feature
+projects: ${{ vars.DEFAULT_ISSUE_PROJECT }}
 body:
   - type: markdown
     attributes:

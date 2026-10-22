@@ -12,5 +12,24 @@
   <h1>Thank you for submitting an issue!</h1>
   <p>We will review your report and get back to you soon.</p>
   <p><a href="https://github.com/users/rianaventura/projects/5/views/4">View your issues</a></p>
+  <script>
+    async function loadIssues() {
+      const token = localStorage.getItem("gh_token");
+      const user = await fetch("https://api.github.com/user", {
+        headers: { Authorization: `token ${token}` }
+      }).then(r => r.json());
+    
+      const issues = await fetch("https://api.github.com/repos/rianaventura/beehive/issues", {
+        headers: { Authorization: `token ${token}` }
+      }).then(r => r.json());
+    
+      const mine = issues.filter(i => i.user.login === user.login);
+    
+      document.getElementById("issues").innerHTML =
+        mine.map(i => `<li><a href="${i.html_url}">${i.title}</a></li>`).join("");
+    }
+    loadIssues();
+</script>
+<ul id="issues"></ul>
 </body>
 </html>

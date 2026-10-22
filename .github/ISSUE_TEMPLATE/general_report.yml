@@ -2,8 +2,6 @@ name: 💬 General Report
 description: Provide general feedback or inquiries
 title: "[General]: "
 labels: ["general", "triage"]
-assignees:
-  - rianaventura
 type: general
 body:
   - type: markdown

@@ -3,6 +3,7 @@ description: Suggest updates or additions to documentation
 title: "[Docs]: "
 labels: ["bug", "documentation"]
 type: Documentation
+projects: ${{ vars.DEFAULT_ISSUE_PROJECT }}
 body:
   - type: markdown
     attributes:

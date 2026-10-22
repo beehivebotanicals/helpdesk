@@ -1,4 +1,4 @@
-name: Deploy Landing Page for Issue
+name: Beehive- Deploy Landing Page for Issue
 on:
   issues:
     types: [opened]

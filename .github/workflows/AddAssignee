@@ -1,0 +1,15 @@
+name: Auto-assign new issues
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-assign issue
+        uses: pozil/auto-assign-issue@v4
+        with:
+          assignees: 'rianaventura'  # the person to assign to
+          allowSelfAssign: false            # prevent self-assignment
+          abortIfPreviousAssignees: true    # skip if already assigned

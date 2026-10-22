@@ -1,16 +1,15 @@
 name: Issue assignment  
-
 on:
     issues:
         types: [opened]
 
 jobs:
-    auto-assign:
+    assign:
         runs-on: ubuntu-latest
         permissions:
             issues: write
         steps:
-            - name: 'Auto-assign issue'
+            - name: Auto-assign issue
               uses: pozil/auto-assign-issue@v4
               with:
                   assignees:  ${{ vars.DEFAULT_ISSUE_ASSIGNEE }}  # the person to assign to, this is a repo variable, go to settings, secrets etc.

@@ -1,7 +1,7 @@
 name: 💬 General Report
 description: Provide general feedback or inquiries
 title: "[General]: "
-labels: ["general", "triage"]
+labels: ["question", "triage"]
 type: general
 body:
   - type: markdown

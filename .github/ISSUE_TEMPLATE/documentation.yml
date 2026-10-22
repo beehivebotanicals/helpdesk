@@ -19,21 +19,25 @@ body:
       placeholder: What would you like to see?
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"  # This renders as a horizontal divider line
   - type: textarea
     id: reason-for-update
     attributes:
       label:  Reason for update
       description: Explain the importance of this update.
       placeholder: Why is this update important? How will it help users?
-      value: "Explain the importance of this update"
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "---"  # This renders as a horizontal divider line
   - type: textarea
     id: additional-info
     attributes:
       label: Additional context
       description: Add any other context about the problem here.
-      placeholder: Tell us what you see!
-      value: "Please provide any additional information that may help us understand the issue."
+      placeholder: "Please provide any additional information that may help us understand the issue."
     validations:
       required: false

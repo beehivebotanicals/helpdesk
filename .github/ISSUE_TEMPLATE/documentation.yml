@@ -31,7 +31,6 @@ body:
     validations:
       required: true
   - type: markdown
-  - type: markdown
     attributes:
       value: "---"  # This renders as a horizontal divider line
   - type: textarea

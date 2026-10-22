@@ -26,8 +26,8 @@ body:
     id: reason-for-update
     attributes:
       label:  Reason for update
-      description: Explain the importance of this update.
-      placeholder: Why is this update important? How will it help users?
+      description: Please explain why it is necessary
+      placeholder: How will it help users?
     validations:
       required: true
   - type: markdown

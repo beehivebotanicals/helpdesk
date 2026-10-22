@@ -1,15 +1,20 @@
-name: Beehive- Auto-assign new issues
+name: Issue assignment  
+#this is from Pozil/auto-assign action
+
 on:
-  issues:
-    types: [opened]
+    issues:
+        types: [opened]
 
 jobs:
-  assign:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Auto-assign issue
-        uses: pozil/auto-assign-issue@v4
-        with:
-          assignees: ${{ vars.DEFAULT_ISSUE_ASSIGNEE }}  # the person to assign to, this is a repo variable, go to settings, secrets etc.
-          allowSelfAssign: true            # prevent self-assignment
-          abortIfPreviousAssignees: true    # skip if already assigned
+    auto-assign:
+        runs-on: ubuntu-latest
+        permissions:
+            issues: write
+        steps:
+            - name: 'Auto-assign issue'
+              uses: pozil/auto-assign-issue@v4
+              with:
+                  assignees:  ${{ vars.DEFAULT_ISSUE_ASSIGNEE }}  # the person to assign to, this is a repo variable, go to settings, secrets etc.
+                  numOfAssignee: 1
+                  allowSelfAssign: true
+                  abortIfPreviousAssignees: true    # skip if already assigned

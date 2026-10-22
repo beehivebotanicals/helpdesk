@@ -3,6 +3,7 @@ description: File a bug report (yml).
 title: "[Bug]: "
 labels: ["bug", "triage"]
 type: bug
+projects: ${{ vars.DEFAULT_ISSUE_PROJECT }}
 body:
   - type: markdown
     attributes:

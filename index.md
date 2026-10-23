@@ -9,25 +9,5 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When someth
-bullet_points:
-  - "Fast and reliable"
-  - "Easy to use"
-  - "Open source"
-buttons:
-  - text: "New Issue"
-    url: "https://github.com/rianaventura/beehive/issues/new/choose"
-  - text: "My Tickets"
-    url: "https://github.com/users/rianaventura/projects/7/views/4"
+[<img src="https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/SERVICE-icon.svg" alt="Get it on SERVICE" height="32" />](https://github.com/rianaventura/beehive/issues/new/choose)
+[<img src="https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/SERVICE-icon.svg" alt="Get it on SERVICE" height="32" />](https://github.com/users/rianaventura/projects/7/views/4)

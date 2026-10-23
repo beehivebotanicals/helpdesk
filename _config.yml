@@ -1,3 +1,14 @@
+# Site settings
 theme: jekyll-theme-minimal
+banner_image: "/images/Beehive2.jpg" # Path to your JPG banner
 title: Beehive Homepage
-description: Bookmark this to keep an eye on my project updates!
+welcome_message: "Welcome to Beehive HelpDesk!"
+bullet_points:
+  - "Fast and reliable"
+  - "Easy to use"
+  - "Open source"
+buttons:
+  - text: "New Issue"
+    url: "/issues/new/choose"
+  - text: "My Tickets"
+    url: "https://github.com/users/rianaventura/projects/7/views/4"

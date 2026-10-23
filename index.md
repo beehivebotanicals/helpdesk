@@ -9,7 +9,7 @@ layout: default
         display: inline-block;
         padding: 10px 20px;
         margin: 5px;
-        background-color: #007BFF;
+        background-color: #4da3ff;
         color: white;
         text-decoration: none;
         border-radius: 5px;
@@ -25,6 +25,6 @@ layout: default
 </div>
 
 
-[Link to another page](./another-page.html).
+[comment]:([Link to another page](./another-page.html))
 
 

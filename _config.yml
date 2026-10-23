@@ -8,7 +8,7 @@ plugins:
 banner_image: "/beehive/assets/images/Beehive2.jpg" # Path to your JPG banner
 banner_image_alt: "Beehive Botanicals Logo"
 title: Beehive HelpDesk
-description: Providing a safe space to request assistance as well as provide comments
+description: Providing a safe space for working together!
 # welcome_message: "Welcome to Beehive HelpDesk!"
 # GitHub Buttons configuration
 buttons:

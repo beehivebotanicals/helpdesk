@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-# Welcome to Beehive HelpDesk!
-
+[comment]:# (Welcome to Beehive HelpDesk!)
 [comment]: # (This is a comment.)
 
 <!-- Buttons -->

@@ -1,0 +1,23 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+</head>
+<body>
+    <h1>{{ site.data.siteinfo.welcome_message }}</h1>
+
+    <h2>Features:</h2>
+    <ul>
+        {% for feature in site.data.siteinfo.features %}
+            <li>
+                <strong>{{ feature.name }}</strong>: {{ feature.description }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

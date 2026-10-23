@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+# Welcome to Beehive HelpDesk!
+
+[comment]: # (This is a comment.)
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
@@ -19,3 +22,12 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 > This is a blockquote following a header.
 >
 > When someth
+bullet_points:
+  - "Fast and reliable"
+  - "Easy to use"
+  - "Open source"
+buttons:
+  - text: "New Issue"
+    url: "https://github.com/rianaventura/beehive/issues/new/choose"
+  - text: "My Tickets"
+    url: "https://github.com/users/rianaventura/projects/7/views/4"

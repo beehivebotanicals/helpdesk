@@ -1,6 +1,7 @@
 # Site settings
 theme: jekyll-theme-minimal
 banner_image: "https://github.com/rianaventura/beehive/images/Beehive2.jpg" # Path to your JPG banner
+banner_image_alt: "Beehive Botanicals Logo"
 title: Beehive Homepage
 welcome_message: "Welcome to Beehive HelpDesk!"
 bullet_points:

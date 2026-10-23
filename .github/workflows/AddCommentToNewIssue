@@ -1,0 +1,24 @@
+name: Beehive Issue Created- Add Comment
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Add comment with URL
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issueNumber = context.payload.issue.number;
+            #const commentBody = `🔗 **Issue created!** Check out the details here: [${context.payload.repository.full_name}#${issueNumber}](https://github.com/${context.payload.repository.full_name}/issues/${issueNumber})`;
+            const commentBody = `🔗 **Issue created!** Check out the details here: [My Issue Tickets](https://github.com/users/rianaventura/projects/7/views/4)`;
+
+            await github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: commentBody
+            });

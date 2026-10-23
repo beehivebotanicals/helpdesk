@@ -1,5 +1,5 @@
 # Site settings
-theme: jekyll-theme-minimal
+theme: {{DEFAULT_SITE_THEME}}
 banner_image: "/beehive/images/Beehive2.jpg" # Path to your JPG banner
 banner_image_alt: "Beehive Botanicals Logo"
 title: Beehive Homepage

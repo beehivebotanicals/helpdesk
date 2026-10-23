@@ -1,0 +1,8 @@
+welcome_message: "Hello from YAML!"
+features:
+  - name: Fast
+    description: Loads quickly
+  - name: Simple
+    description: Easy to maintain
+  - name: Flexible
+    description: Works with templates

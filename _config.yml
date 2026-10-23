@@ -10,3 +10,11 @@ banner_image_alt: "Beehive Botanicals Logo"
 title: Beehive HelpDesk
 description: Providing a safe space to request assistance as well as provide comments
 # welcome_message: "Welcome to Beehive HelpDesk!"
+# GitHub Buttons configuration
+buttons:
+  - text: "New Ticket"
+    url: "https://github.com/rianaventura/beehive/issues/new/choose"
+    style: "primary"
+  - text: "My Tickets"
+    url: "https://github.com/rianaventura/beehive/issues?q=is%3Aissue+state%3Aopen+author%3A%40me"
+    style: "secondary"

@@ -1,4 +1,34 @@
-welcome_message: "Hello from YAML!"
+welcome_message: "Welcome to the HelpDesk!"
+
+- tag: div
+  attributes:
+    class: header
+  children:
+    - tag: img
+      attributes:
+        src: images/Beehive2.jpg
+        alt: Beehive Botanicals Logo
+        class: responsive
+- tag: div
+  attributes:
+    class: content
+  children:
+    - tag: p
+      text: Latest news.....
+    - tag: a
+      attributes:
+        href: https://github.com/rianaventura/beehive/issues/new/choose
+        class: btn
+      text: New Ticket
+    - tag: a
+      attributes:
+        href: https://github.com/users/rianaventura/projects/7/views/4
+        class: btn
+      text: My Tickets
+- tag: ul
+  attributes:
+    id: issues
+
 features:
   - name: Fast
     description: Loads quickly

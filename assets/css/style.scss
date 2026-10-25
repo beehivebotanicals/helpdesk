@@ -6,19 +6,16 @@
 /* overrides */
 /* Left-align whole page */
 html {
-  text-align: left;
+  text-align: left !important;
 }
 
 /* Left-align main content */
 .container {
   text-align: left; /* ensures inline content is left-aligned */
-}
-
-/* Reduce padding on the main container */
-.container {
   padding-left: 10px;   /* adjust to your preference */
   padding-right: 10px;
 }
+
 
 /* Optional: reduce padding on headings and paragraphs */
 h1, h2, h3, p {

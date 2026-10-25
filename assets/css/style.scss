@@ -5,12 +5,16 @@
 
 /* overrides */
 /* Left-align whole page */
+
+<!--
 html {
   text-align: left !important;
 }
+-->
 
 body {
   padding-left: 0 !important;
+  text-align: left !important;
 }
 
 /* Left-align main content */

@@ -3,7 +3,12 @@
 /* import main theme */
 @import "jekyll-theme-tactile";
 
-/* now adjust */
+/* overrides */
+/* Left-align whole page */
+html {
+  text-align: left;
+}
+
 /* Left-align main content */
 .container {
   text-align: left; /* ensures inline content is left-aligned */
@@ -19,4 +24,9 @@
 h1, h2, h3, p {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
 }

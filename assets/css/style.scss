@@ -1,4 +1,22 @@
 ---
 ---
-
+/* import main theme */
 @import "jekyll-theme-tactile";
+
+/* now adjust */
+/* Left-align main content */
+.container {
+  text-align: left; /* ensures inline content is left-aligned */
+}
+
+/* Reduce padding on the main container */
+.container {
+  padding-left: 10px;   /* adjust to your preference */
+  padding-right: 10px;
+}
+
+/* Optional: reduce padding on headings and paragraphs */
+h1, h2, h3, p {
+  padding-left: 5px;
+  padding-right: 5px;
+}

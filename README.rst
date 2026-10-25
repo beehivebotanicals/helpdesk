@@ -1,10 +1,10 @@
-Welcome to the Beehive Issues Tracker
+Welcome to the Beehive HelpDesk
 =============================================
 
 About
 -----
 
-This site hosts the list of issues, concerns and suggestions identified for the Beehive Transition.
+This site hosts the list of issues, concerns and suggestions identified for the Beehive.
 
 References
 ----------

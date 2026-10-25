@@ -15,14 +15,6 @@ layout: default
         border-radius: 5px;
     }
     .buttons a:hover { background-color: #0056b3; }
-
-    /* Left-align main content */
-    .container {
-      text-align: left; /* ensures inline content is left-aligned */
-      padding-left: 10px;   /* adjust to your preference */
-      padding-right: 10px;
-}
-
 </style>
 
 <!-- Buttons -->

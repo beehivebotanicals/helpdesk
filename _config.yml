@@ -7,7 +7,7 @@ banner_image: "https://rianaventura.github.io/beehive/assets/images/Beehive2.jpg
 banner_image_alt: Beehive logo
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Beehive HelpDesk
+title: HelpDesk
 description: Providing a safe space for working together!
 # welcome_message: "Welcome to Beehive HelpDesk!"
 # GitHub Buttons configuration

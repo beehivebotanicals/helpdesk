@@ -4,34 +4,30 @@
 @import "jekyll-theme-tactile";
 
 /* overrides */
-/* Left-align whole page */
-
-<!--
+/* Force all content to be left-aligned */
+body,
 html {
-  text-align: left !important;
-}
--->
-
-body {
-  padding-left: 0 !important;
-  text-align: left !important;
+  text-align: left;
 }
 
-/* Left-align main content */
-.container {
-  text-align: left; /* ensures inline content is left-aligned */
-  padding-left: 10px;   /* adjust to your preference */
-  padding-right: 10px;
+/* Minimal left padding for all block-level elements */
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+table,
+pre,
+blockquote {
+  padding-left: 0.5em; /* minimal */
 }
 
-
-/* Optional: reduce padding on headings and paragraphs */
-h1, h2, h3, p {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.content {
-  padding-left: 10px;
-  padding-right: 10px;
+/* Optional: remove left padding from headings */
+h1, h2, h3, h4, h5, h6 {
+  padding-left: 0;
 }

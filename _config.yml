@@ -15,9 +15,10 @@ title: HelpDesk
 description: Providing a safe space for working together!
 # welcome_message: "Welcome to Beehive HelpDesk!"
 # GitHub Buttons configuration
+# "/issues/new/choose"
 buttons:
   - text: "New Ticket"
-    url: "/issues/new/choose"
+    url: "$base-url/$repo/issues/new/choose"
     style: "primary"
   - text: "My Tickets"
     url: "$project-url/projects/1/views/1"

@@ -18,9 +18,10 @@ layout: default
 </style>
 
 <!-- Buttons -->
+[comment]: # ({{site.base-url}}/{{site.repo}})
   <div class="buttons">
       {% for btn in site.buttons %}
-          <a href="{{site.base-url}}/{{site.repo}}{{ btn.url }}" target="_blank">{{ btn.text }}</a>
+          <a href="{{ btn.url }}" target="_blank">{{ btn.text }}</a>
       {% endfor %}
 </div>
 

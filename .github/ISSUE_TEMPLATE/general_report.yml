@@ -3,7 +3,9 @@ description: Provide general feedback or inquiries
 title: "[General]: "
 labels: ["question", "triage"]
 type: general
-projects: ${{ vars.DEFAULT_ISSUE_PROJECT }}
+projects: 
+  - ${{ vars.DEFAULT_ISSUE_PROJECT }}
+  - ${{ vars.SECONDARY_ISSUE_PROJECT }}
 body:
   - type: markdown
     attributes:

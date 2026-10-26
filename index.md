@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[comment]:# (Welcome to Beehive HelpDesk!)
+[comment]: # (Beehive Coding Zone!)
 [comment]: # (This is a comment.)
 <style>
     .buttons { margin-top: 20px; }

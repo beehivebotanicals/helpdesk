@@ -20,5 +20,5 @@ buttons:
     url: "/issues/new/choose"
     style: "primary"
   - text: "My Tickets"
-    url: "$project-url/projects/1/views/1?q=is%3Aissue+state%3Aopen+author%3A%40me"
+    url: "$project-url/projects/1/views/1"
     style: "secondary"

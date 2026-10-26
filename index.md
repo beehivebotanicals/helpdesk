@@ -20,7 +20,7 @@ layout: default
 <!-- Buttons -->
   <div class="buttons">
       {% for btn in site.buttons %}
-          <a href="{{site.url}}/{{site.baseurl}}{{ btn.url }}" target="_blank">{{ btn.text }}</a>
+          <a href="{{site.base-url}}/{{site.repo}}{{ btn.url }}" target="_blank">{{ btn.text }}</a>
       {% endfor %}
 </div>
 

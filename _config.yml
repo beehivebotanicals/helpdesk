@@ -2,8 +2,9 @@
 show_downloads: false
 show_buttons: true
 google_analytics:
-baseurl: helpdesk
-url: "https://beehivebotanicals.github.io"
+repo: helpdesk
+base-url: "https://github.com/beehivebotanicals"
+pages-url: "https://beehivebotanicals.github.io"
 remote_theme: pages-themes/tactile@v0.2.0
 banner_image: Beehive2.jpg
 banner_image_alt: Beehive logo

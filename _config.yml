@@ -4,6 +4,9 @@ show_buttons: true
 google_analytics:
 env:
   repo: helpdesk
+  base_url: https://github.com/beehivebotanicals
+  pages_url: https://beehivebotanicals.github.io
+  project_url: https://github.com/orgs/beehivebotanicals
 remote_theme: pages-themes/tactile@v0.2.0
 banner_image: Beehive2.jpg
 banner_image_alt: Beehive logo
@@ -16,8 +19,8 @@ description: Providing a safe space for working together!
 # "/issues/new/choose"
 buttons:
   - text: "New Ticket"
-    url: "${{BASE_URL}}/${{repo}}/issues/new/choose"
+    url: "https://github.com/beehivebotanicals/helpdesk/issues/new/choose"
     style: "primary"
   - text: "My Tickets"
-    url: "${{PROJECT_URL}}/projects/1/views/1"
+    url: "https://github.com/orgs/beehivebotanicals/projects/1/views/1"
     style: "secondary"

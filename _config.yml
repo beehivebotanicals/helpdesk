@@ -3,6 +3,7 @@ show_downloads: false
 show_buttons: true
 google_analytics:
 baseurl: helpdesk
+url: "https://beehivebotanicals.github.io"
 remote_theme: pages-themes/tactile@v0.2.0
 banner_image: Beehive2.jpg
 banner_image_alt: Beehive logo
@@ -14,8 +15,8 @@ description: Providing a safe space for working together!
 # GitHub Buttons configuration
 buttons:
   - text: "New Ticket"
-    url: "$baseurl/issues/new/choose"
+    url: "/issues/new/choose"
     style: "primary"
   - text: "My Tickets"
-    url: "$baseurl/issues?q=is%3Aissue+state%3Aopen+author%3A%40me"
+    url: "/issues?q=is%3Aissue+state%3Aopen+author%3A%40me"
     style: "secondary"

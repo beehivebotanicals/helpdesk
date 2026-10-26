@@ -1,3 +1,4 @@
+#template from gitHub.... added variable for assignees which is set in repo settings
 name: Issue assignment  
 on:
     issues:

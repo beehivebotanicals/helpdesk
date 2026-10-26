@@ -2,8 +2,9 @@
 show_downloads: false
 show_buttons: true
 google_analytics:
+baseurl: helpdesk
 remote_theme: pages-themes/tactile@v0.2.0
-banner_image: "https://github.com/beehivebotanicals/helpdesk/assets/images/Beehive2.jpg"
+banner_image: "Beehive2.jpg"
 banner_image_alt: Beehive logo
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -13,8 +14,8 @@ description: Providing a safe space for working together!
 # GitHub Buttons configuration
 buttons:
   - text: "New Ticket"
-    url: "https://github.com/beehivebotanicals/helpdesk/issues/new/choose"
+    url: "{{ site.baseurl }}/issues/new/choose"
     style: "primary"
   - text: "My Tickets"
-    url: "https://github.com/beehivebotanicals/helpdesk/issues?q=is%3Aissue+state%3Aopen+author%3A%40me"
+    url: "{{ site.baseurl }}/issues?q=is%3Aissue+state%3Aopen+author%3A%40me"
     style: "secondary"

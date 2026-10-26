@@ -14,7 +14,7 @@ jobs:
           script: |
             const issueNumber = context.payload.issue.number;
             #const commentBody = `🔗 **Issue created!** Check out the details here: [${context.payload.repository.full_name}#${issueNumber}](https://github.com/${context.payload.repository.full_name}/issues/${issueNumber})`;
-            const commentBody = `🔗 **Issue created!** Check out the details here: [My Issue Tickets](https://github.com/users/rianaventura/projects/7/views/4)`;
+            const commentBody = `🔗 **Issue created!** Quick link: [All My Tickets](https://github.com/orgs/beehivebotanicals/projects/1/views/1)`;
 
             await github.issues.createComment({
               owner: context.repo.owner,

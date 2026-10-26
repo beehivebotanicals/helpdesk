@@ -1,4 +1,5 @@
-#template from gitHub.... added variable for assignees which is set in repo settings
+# template from https://github.com/pozil/auto-assign-issue
+# customize- added variable for assignees which is set in repo settings
 name: Issue assignment  
 on:
     issues:
@@ -14,6 +15,6 @@ jobs:
               uses: pozil/auto-assign-issue@v4
               with:
                   assignees:  ${{ vars.DEFAULT_ISSUE_ASSIGNEE }}  # the person to assign to, this is a repo variable, go to settings, secrets etc.
-                  numOfAssignee: 1
+                  numOfAssignee:  #leave blank and if variable has 4 people separated by comma, it will assign to all four
                   allowSelfAssign: true
                   abortIfPreviousAssignees: true    # skip if already assigned

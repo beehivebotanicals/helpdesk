@@ -42,8 +42,10 @@ Other Links
 -----------
 * `Learn YAML in Y Minutes <https://learnxinyminutes.com/yaml/>`_
 * `GitHub Issue Template YAML Cheat Sheet <https://gist.github.com/Elliria/ee13ed5201aaaac6f77f55290f189f0a/>`_
+* `Markdown Cheat Sheet <https://www.markdownguide.org/cheat-sheet/>`_
 * `reStructured Text (.rst) Cheat Sheet <https://bashtage.github.io/sphinx-material/rst-cheatsheet/rst-cheatsheet.html/>`_
 * `Markdown and/or reStructuredText <https://gist.github.com/javiertejero/4585196/>`_
+
 
     
 

@@ -29,9 +29,9 @@ Individual Template Files:
 
 Formatting
 ----------
-* Issue Templates are written with YAML
-* Configuration pages are written with Markdown
-* Readme is written in either reStructuredText (.rst) or Markdown (.md)
+- Issue Templates are written with YAML
+- Configuration pages are written with Markdown
+- Readme is written in either reStructuredText (.rst) or Markdown (.md)
 
 
    *All these files are automatically rendered into .html by GitHub*

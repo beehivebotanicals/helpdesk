@@ -23,8 +23,11 @@ Individual Template Files:
 Formatting
 ----------
 * Issue Templates are written with YAML
-* Configuration pages is written with Markdown
+* Configuration pages are written with Markdown
 * Readme is written in either reStructuredText (.rst) or Markdown (.md)
+
+
+   *All these files are automatically rendered into .html by GitHub*
 
 .. GitHub supports both Markdown and RST. Markdown is simpler, but RST is more powerful and extensible, especially for tables and Sphinx documentation. Guides comparing the two emphasize using a shared subset when switching between formats.
 

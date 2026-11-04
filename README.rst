@@ -45,26 +45,5 @@ Other Links
 * `reStructured Text (.rst) Cheat Sheet <https://bashtage.github.io/sphinx-material/rst-cheatsheet/rst-cheatsheet.html/>`_
 * `Markdown and/or reStructuredText <https://gist.github.com/javiertejero/4585196/>`_
 
-Screenshots
------------
-
-Placeholder 1
-
-.. image:: urls/image72.png
-    :width: 797 px
-    :height: 595 px
-    :scale: 40 %
-    :target: url/image72.png
-
-|
-
-Placeholder2!
-
-.. image:: urls/image74.png
-    :width: 797 px
-    :height: 595 px
-    :scale: 40 %
-    :target: url/image74.png
-
     
 

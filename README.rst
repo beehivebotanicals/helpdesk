@@ -20,6 +20,7 @@ Screenshots
 -----------
 
 Placeholder 1
+
 .. image:: urls/image72.png
     :width: 797 px
     :height: 595 px
@@ -28,6 +29,7 @@ Placeholder 1
 
 
 Placeholder2!
+
 .. image:: urls/image74.png
     :width: 797 px
     :height: 595 px

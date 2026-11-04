@@ -19,16 +19,15 @@ Other Links
 Screenshots
 -----------
 
-Placeholder 1!
-
+Placeholder 1
 .. image:: urls/image72.png
     :width: 797 px
     :height: 595 px
     :scale: 40 %
-    :target: url/image72.png
+    :target: url/image72.png  
+
 
 Placeholder2!
-
 .. image:: urls/image74.png
     :width: 797 px
     :height: 595 px

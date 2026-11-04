@@ -1,9 +1,9 @@
-.. image:: https://github.com/beehivebotanicals/helpdesk/main/assets/images/beehive2.jpg?sanitize=true
+.. image:: assets/images/Beehive2.jpg?sanitize=true
    :alt: Beehive Botanicals logo
-   :width: 797 px
-   :height: 595 px
-   :scale: 40 %
-   :target: https://github.com/beehivebotanicals/helpdesk/main/assets/images/beehive2.jpg?sanitize=true
+   :width: 1000 px
+   :height: 200 px
+   :scale: 40%
+   :target: assets/images/Beehive2.jpg?sanitize=true
 
 Welcome to the Beehive HelpDesk Members Only View👋
 =============================================

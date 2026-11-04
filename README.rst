@@ -12,13 +12,14 @@ x
 
 Other Links
 -----------
+* `Learn YAML in Y Minutes <https://learnxinyminutes.com/yaml/>`_
+* `GitHub Issue Template YAML Cheat Sheet <https://gist.github.com/Elliria/ee13ed5201aaaac6f77f55290f189f0a/>`_
 
-* `Link! <url>`_
 
 Screenshots
 -----------
 
-Design time...
+Placeholder 1!
 
 .. image:: urls/image72.png
     :width: 797 px
@@ -26,7 +27,7 @@ Design time...
     :scale: 40 %
     :target: url/image72.png
 
-Run time!
+Placeholder2!
 
 .. image:: urls/image74.png
     :width: 797 px
